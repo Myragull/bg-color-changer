@@ -1,12 +1,38 @@
-# React + Vite
+# Background Color Changer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive background color changer built with React. This interactive project allows users to instantly change the page’s background color by selecting from a palette of vibrant colors.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app allows users to:
 
-## Expanding the ESLint configuration
+- Instantly change the background color of the entire page
+- Choose from a predefined palette of soothing and vibrant colors
+- Enjoy a minimalistic and clean user interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Color changing functionality with React state (`useState`)
+- Modular component structure for buttons and main layout
+- Predefined color palette with options like Blue, Green, Coral, Lavender, Peach, and Goldenrod
+- Responsive and interactive design
+
+## How to Use
+
+1. Open the app in your browser.
+2. Click on any of the color buttons to instantly change the page background to that color.
+3. Enjoy experimenting with different color schemes!
+
+## Technologies Used
+
+- **React.js** – Frontend library for building the interactive UI
+- **JavaScript (ES6+)** – Core logic and functionality
+- **HTML & CSS** – Styling and layout (with Tailwind CSS for styling utility classes)
+
+## Live Demo
+
+View Live App: https://bg-color-changer-coral.vercel.app/
+
+## Author
+
+Made with passion by Myra Gull (https://github.com/Myragull)
